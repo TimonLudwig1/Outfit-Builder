@@ -61,7 +61,7 @@ outfit-app/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/outfit-app.git
+git clone https://github.com/TimonLudwig1/Outfit-Builder.git
 cd outfit-app
 ```
 
