@@ -1,0 +1,14 @@
+utils/ (HILFSFUNKTIONEN)
+
+Kleine Helfer, die überall gebraucht werden
+
+
+file_handler.py
+
+Zuständig für:
+
+Dateien speichern
+Pfade generieren
+evtl. löschen
+
+Vorteil: → kein Chaos mit Dateipfaden überall im Code

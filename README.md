@@ -26,7 +26,7 @@ A simple AI-powered web application that allows users to upload clothing items, 
 ## Project Structure
 
 ```
-outfit-app/
+Outfit-Builder/
 │
 ├── app/
 │   ├── main.py

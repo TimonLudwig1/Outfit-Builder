@@ -1,0 +1,24 @@
+Wie alles zusammenarbeitet (Flow)
+
+Schritt 1: Upload
+
+User → /upload/
+→ routes/upload.py
+→ image_service.py
+→ Bild gespeichert + Hintergrund entfernt
+→ gespeichert in processed/
+
+
+Schritt 2: Outfit erstellen
+
+User → /create-outfit/
+→ routes/outfit.py
+→ outfit_service.py
+→ Bilder kombiniert
+→ gespeichert in outfits/
+
+
+🧠 Warum diese Struktur so gut ist
+🔥 leicht erweiterbar (AI, DB, UI)
+🧼 sauber getrennt (keine Chaos-Dateien)
+🧑‍💻 wirkt professionell (wichtig für Portfolio)

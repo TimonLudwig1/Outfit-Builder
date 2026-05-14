@@ -1,0 +1,21 @@
+static/ (DATEIEN – SEHR WICHTIG)
+
+Hier werden echte Bilder gespeichert
+
+
+uploads/
+
+Originalbilder vom User
+direkt nach Upload gespeichert
+
+
+processed/
+
+Bilder ohne Hintergrund
+Ergebnis von rembg
+
+
+outfits/
+
+Fertige kombinierte Outfits
+Ergebnis von deinem Builder

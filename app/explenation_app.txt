@@ -1,0 +1,17 @@
+app/ (DEIN BACKEND)
+
+Das ist der Kern deiner Anwendung.
+
+main.py
+
+Startpunkt deiner App
+
+Hier passiert:
+
+FastAPI wird erstellt
+Routes werden eingebunden
+app = FastAPI()
+app.include_router(upload.router)
+app.include_router(outfit.router)
+
+Ohne diese Datei läuft nichts.
