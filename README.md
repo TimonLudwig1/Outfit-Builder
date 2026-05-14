@@ -62,7 +62,6 @@ outfit-app/
 
 ```bash
 git clone https://github.com/TimonLudwig1/Outfit-Builder.git
-cd outfit-app
 ```
 
 2. Create a virtual environment:
