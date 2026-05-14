@@ -1,24 +1,22 @@
-Wie alles zusammenarbeitet (Flow)
-
-Schritt 1: Upload
-
-User → /upload/
-→ routes/upload.py
-→ image_service.py
-→ Bild gespeichert + Hintergrund entfernt
-→ gespeichert in processed/
-
-
-Schritt 2: Outfit erstellen
-
-User → /create-outfit/
-→ routes/outfit.py
-→ outfit_service.py
-→ Bilder kombiniert
-→ gespeichert in outfits/
-
-
-🧠 Warum diese Struktur so gut ist
-🔥 leicht erweiterbar (AI, DB, UI)
-🧼 sauber getrennt (keine Chaos-Dateien)
-🧑‍💻 wirkt professionell (wichtig für Portfolio)
+outfit-builder-desktop/
+│
+├── app.py                      # Start der GUI (Tkinter)
+│
+├── services/
+│   ├── image_service.py        # Hintergrund entfernen
+│   ├── outfit_service.py       # Outfit erstellen
+│   ├── storage_service.py      # 💾 Outfits speichern/laden (NEU)
+│
+├── data/
+│   ├── outfits.json            # 💾 gespeicherte Outfits (NEU)
+│
+├── assets/
+│   ├── temp/                   # temporäre Dateien
+│   ├── output/                 # generierte Outfits (PNG)
+│
+├── utils/
+│   ├── file_handler.py        # Datei-Operationen (optional Helfer)
+│
+├── requirements.txt
+└── README.md
+---
